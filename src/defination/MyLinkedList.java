@@ -7,4 +7,9 @@ public class MyLinkedList<E> implements LinkedListADT {
     public void add(int index, Object item) {
 
     }
+
+    private class Node<E> {
+        private E data;
+        private Node node;
+    }
 }
